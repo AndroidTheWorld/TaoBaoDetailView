@@ -5,13 +5,14 @@ TaoBaoDetailView
 
 程序截图：
 
-[1]:http://images.cnblogs.com/cnblogs_com/a284628487/626478/o_S41102-110331.jpg
+http://images.cnblogs.com/cnblogs_com/a284628487/626478/o_S41102-110331.jpg
 
-[2]:http://images.cnblogs.com/cnblogs_com/a284628487/626478/o_S41102-110915.jpg
+http://images.cnblogs.com/cnblogs_com/a284628487/626478/o_S41102-110915.jpg
 
-[3]:http://images.cnblogs.com/cnblogs_com/a284628487/626478/o_S41102-110920.jpg
+http://images.cnblogs.com/cnblogs_com/a284628487/626478/o_S41102-110920.jpg
 
 使用说明：
+
 <com.taobao.detailview.TBLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/tblayout"
@@ -38,8 +39,11 @@ TaoBaoDetailView
 
 </com.taobao.detailview.TBLayout>
 
->>.需要在TBLayout中添加两个子View，id分别为header和footer；
->>.实现OnPullListener
+
+(1):需要在TBLayout中添加两个子View，id分别为header和footer；
+(2):实现OnPullListener
+	
+	
 	public interface OnPullListener {
 		// 手指向上滑动时到达第一页底部
 		public boolean headerFootReached(MotionEvent event);
