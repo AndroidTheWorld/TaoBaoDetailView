@@ -1,15 +1,15 @@
 TaoBaoDetailView
 ================
 
-淘宝宝贝详情页View(--继续拖动,查看图文详情--)
+淘宝宝贝(商品)详情页View(--继续拖动,查看图文详情--)
 
-程序截图：
+#### 程序截图：
 
 ![http://img.my.csdn.net/uploads/201501/23/1421976457_7683.jpg](http://img.my.csdn.net/uploads/201501/23/1421976457_7683.jpg)
 ![http://img.my.csdn.net/uploads/201501/23/1421976457_1539.jpg](http://img.my.csdn.net/uploads/201501/23/1421976457_1539.jpg)
 ![http://img.my.csdn.net/uploads/201501/23/1421976458_8961.jpg](http://img.my.csdn.net/uploads/201501/23/1421976458_8961.jpg)
 
-使用说明：
+#### 使用说明：
 
 <com.taobao.detailview.TBLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
