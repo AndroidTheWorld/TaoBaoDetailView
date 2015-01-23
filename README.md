@@ -38,7 +38,8 @@ TaoBaoDetailView
 </com.taobao.detailview.TBLayout>
 
 
-(1):需要在TBLayout中添加两个子View，id分别为header和footer；< /br>
+(1):需要指定TBLayout的orientation为vertical,并且在TBLayout中添加两个子View,id分别为header和footer;< /br>
+
 (2):实现OnPullListener
 	
 	
