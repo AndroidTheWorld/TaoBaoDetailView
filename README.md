@@ -5,9 +5,9 @@ TaoBaoDetailView
 
 程序截图：
 
-![http://images.cnblogs.com/cnblogs_com/a284628487/626478/o_S41102-110331.jpg](http://images.cnblogs.com/cnblogs_com/a284628487/626478/o_S41102-110331.jpg)
-![http://images.cnblogs.com/cnblogs_com/a284628487/626478/o_S41102-110915.jpg](http://images.cnblogs.com/cnblogs_com/a284628487/626478/o_S41102-110915.jpg)
-![http://images.cnblogs.com/cnblogs_com/a284628487/626478/o_S41102-110920.jpg](http://images.cnblogs.com/cnblogs_com/a284628487/626478/o_S41102-110920.jpg)
+![http://img.my.csdn.net/uploads/201501/23/1421976457_7683.jpg](http://img.my.csdn.net/uploads/201501/23/1421976457_7683.jpg)
+![http://img.my.csdn.net/uploads/201501/23/1421976457_1539.jpg](http://img.my.csdn.net/uploads/201501/23/1421976457_1539.jpg)
+![http://img.my.csdn.net/uploads/201501/23/1421976458_8961.jpg](http://img.my.csdn.net/uploads/201501/23/1421976458_8961.jpg)
 
 使用说明：
 
