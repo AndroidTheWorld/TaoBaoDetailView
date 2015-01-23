@@ -1,27 +1,20 @@
-<com.taobao.detailview.TBLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/tblayout"
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#646464"
-    android:orientation="vertical" >
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="10.0dip" >
 
-    <ScrollView
-        android:id="@id/header"
+    <Button
+        android:id="@+id/scrollview"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="#449cfd" >
+        android:layout_height="wrap_content"
+        android:text="ScrollView" />
 
-        <include layout="@layout/page1" />
-    </ScrollView>
-
-    <ScrollView
-        android:id="@id/footer"
+    <Button
+        android:id="@+id/scrollview_listview"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="#f97171" >
-
-        <include layout="@layout/page2" />
-    </ScrollView>
-
-</com.taobao.detailview.TBLayout>
+        android:layout_height="wrap_content"
+        android:text="ScrollView + ListView" />
+</LinearLayout>

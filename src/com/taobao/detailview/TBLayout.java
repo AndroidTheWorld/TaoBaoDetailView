@@ -66,19 +66,6 @@ public class TBLayout extends LinearLayout {
 		}
 	}
 
-	public interface OnPullListener {
-		// 手指向上滑动时到达第一页底部
-		public boolean headerFootReached(MotionEvent event);
-
-		// 手指向下滑动时到达第二页顶部
-		public boolean footerHeadReached(MotionEvent event);
-	}
-
-	public interface OnPageChangedListener {
-		// 页面改变事件回调
-		public void onPageChanged(int stub);
-	}
-
 	private void initData() {
 		mHeader = findViewById(R.id.header);
 		mFooter = findViewById(R.id.footer);
@@ -177,5 +164,18 @@ public class TBLayout extends LinearLayout {
 			scrollTo(scroller.getCurrX(), scroller.getCurrY());
 			postInvalidate();
 		}
+	}
+
+	public interface OnPullListener {
+		// 手指向上滑动时到达第一页底部
+		public boolean headerFootReached(MotionEvent event);
+
+		// 手指向下滑动时到达第二页顶部
+		public boolean footerHeadReached(MotionEvent event);
+	}
+
+	public interface OnPageChangedListener {
+		// 页面改变事件回调
+		public void onPageChanged(int stub);
 	}
 }
