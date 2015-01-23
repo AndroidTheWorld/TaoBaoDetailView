@@ -1,17 +1,15 @@
 TaoBaoDetailView
 ================
 
-淘宝宝贝详情页View(--继续拖动,查看图文详情--)
+淘宝宝贝(商品)详情页View(--继续拖动,查看图文详情--)
 
-程序截图：
+#### 程序截图：
 
-http://images.cnblogs.com/cnblogs_com/a284628487/626478/o_S41102-110331.jpg
+![http://img.my.csdn.net/uploads/201501/23/1421976457_7683.jpg](http://img.my.csdn.net/uploads/201501/23/1421976457_7683.jpg)
+![http://img.my.csdn.net/uploads/201501/23/1421976457_1539.jpg](http://img.my.csdn.net/uploads/201501/23/1421976457_1539.jpg)
+![http://img.my.csdn.net/uploads/201501/23/1421976458_8961.jpg](http://img.my.csdn.net/uploads/201501/23/1421976458_8961.jpg)
 
-http://images.cnblogs.com/cnblogs_com/a284628487/626478/o_S41102-110915.jpg
-
-http://images.cnblogs.com/cnblogs_com/a284628487/626478/o_S41102-110920.jpg
-
-使用说明：
+#### 使用说明：
 
 <com.taobao.detailview.TBLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
@@ -40,7 +38,7 @@ http://images.cnblogs.com/cnblogs_com/a284628487/626478/o_S41102-110920.jpg
 </com.taobao.detailview.TBLayout>
 
 
-(1):需要在TBLayout中添加两个子View，id分别为header和footer；
+(1):需要在TBLayout中添加两个子View，id分别为header和footer；< /br>
 (2):实现OnPullListener
 	
 	
