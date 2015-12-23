@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:gravity="center_horizontal"
     android:orientation="vertical"
-    android:padding="10.0dip" >
+    android:padding="10.0dip">
 
     <Button
         android:id="@+id/scrollview"
@@ -17,4 +17,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="ScrollView + ListView" />
-</LinearLayout>
+
+    <Button
+        android:id="@+id/listviewwithfooter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ListViewWithFooter" />
+</LinearLayout>
